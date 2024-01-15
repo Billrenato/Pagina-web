@@ -1,0 +1,1 @@
+Um site com o objetivo em doações de roupa para pessoa carentes que funcionando como uma rede social ondem as pessoas podem fazer publicações com as especificações das roupas que serão doadas e seus endereços.
