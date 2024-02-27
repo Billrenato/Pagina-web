@@ -6,15 +6,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
-    background: rgb(158, 190, 201);
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
-html {
-    font-family:  sans-serif;
-    font-weight: 500;
+
+.texto{
+    font-family: "Marck Script", cursive;
+    font-size: 110px;
 }
 
 a {
@@ -43,14 +45,18 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    color: aliceblue;
+    color: rgb(114, 26, 45);
 }
 main {
     display: flex;
     flex-direction: column;
 }
 .principal{
-    background: url(/assets/064624847468350795204f7164b97be5.jpg);
+    background:  url(/assets/064624847468350795204f7164b97be5.jpg);
+   
+    object-fit: cover;
+    object-position: center;
+
     
 
 }
@@ -74,13 +80,22 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    font-family: "Montserrat", sans-serif;
 
 
 
 }
+.hero-conteudo button{
+    height: 100px;
+    font-size: 50px;
+    border-radius:  13px;
+    background-color:rgb(143, 143, 143);
+    border-color:  rgba(0, 0, 0, 0.13);
+    
+}
 
 .destaque {
-    font-family: Epilogue;
+    font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -95,15 +110,16 @@ main {
 
 }
 .amarelo {
-    color: rgb(92, 90, 91);
+    color: rgb(114, 26, 45);
 
 }
 hr {
-    border-color: bisque ;
+    border-color: rgb(114, 26, 45);
+
 }
 .hero-sub {
-    color: rgb(204, 218, 218);
-    font-family: inter;
+    color: rgb(114, 26, 45);
+    font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -138,25 +154,26 @@ h1 {
     display: flex;
     flex-direction: column;
 
-    max-width: 1120px;
-    padding: 3rem 2rem;
-    margin: auto;
+    max-width: 100%;
+    height: auto;
+    
 
 }
 .roupas-cabeca {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    margin: 20px;
 }
 .roupas-titulo {
-    font-family: montserrat;
+    font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: 700;
-    color: beige;
+    color: rgb(180, 180, 52);
 
 }
 .roupas-subtitulo{
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
     font-family: inter;
     font-size: 18px;
     font-style: normal;
@@ -165,21 +182,27 @@ h1 {
 }
 
 .roupas-card-container {
+   
     
-   width: 100%;
+    
+ 
     
 
 
 }
+.cards{
+    display: flex;
+}
 .roupas-card {
-   background: rgba(48, 45, 45, 0.712);
+    
+   
    padding: 2rem;
-   border-radius: 0.5rem;
+   
    display: flex;
    flex-direction: column; 
    gap: 2rem;
-   flex-basis: 29rem;
-   margin-top: 2rem;
+   
+   margin-top: 10px;
    justify-content: space-between;
    align-items: center;
 }
@@ -200,12 +223,12 @@ h1 {
 
 }
 .title-roupa {
-    color: rgb(233, 217, 217);
+    color: rgb(0, 0, 0);
     font-size: 1.5rem;
     font-weight: 400;
 }
 .roupa-avalia {
-    color: bisque;
+    color: rgb(0, 0, 0);
     font-size: 10px;
     font-weight: 500;
     padding: 20px;
@@ -213,7 +236,7 @@ h1 {
 
 }
 .descri-roupa {
-    color: bisque;
+    color: rgb(14, 13, 12);
     font-size: 1rem;
     font-weight: 400;
 
@@ -254,7 +277,7 @@ footer {
 
 .autor-footer{
 
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
@@ -263,4 +286,80 @@ footer {
 .detalhes img{
     width: 400px;
 
+}
+.blog-box{
+    max-width: 450px;
+    
+    background-color: #e3e8ec;
+    border: 1px solid rgb(255, 244, 244);
+    margin: 15px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: #030303 ;
+    font-size: 0.9rem;
+
+}
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #000000 ;
+    margin: 20px;
+}
+.blog-text .blog-title:hover{
+    color: 224a5e;
+    transition: all ease 0.3s;
+    
+}
+.blog-text p{
+    color: #070606  ;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3-web;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+    
+    
+}
+.blog-text a{
+    color: #161b1b;
+}
+.blog-text a:hover{
+    color:#2f3026  ;
+    transition: all ease 0.3s;
+}
+.blog-container{
+   width: 100%;
+    display:flex;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    
+    
+    
+}
+.blog-container ::-webkit-scrollbar{
+    width: 100%;
+    
+    
+    
 }
