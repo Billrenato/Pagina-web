@@ -50,7 +50,8 @@ main {
     flex-direction: column;
 }
 .principal{
-    background: rgb(88, 90, 92);
+    background: url(/assets/064624847468350795204f7164b97be5.jpg);
+    
 
 }
 .hero {
@@ -116,13 +117,14 @@ h1 {
     column-count: 4;
     column-gap: 1rem;
     margin: -1rem;
+    
 
 
 }
 
 .hero-imagens-conteiner > figure > img {
     width: 100%;
-    border-radius: 0.05rem;
+    border-radius: 50%;
 }
 .botao-container {
     width: 100%;
@@ -130,13 +132,6 @@ h1 {
     
     margin: auto;
     transform: translate("0, -50%");
-
-}
-button {
-    border: none;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    background: rgb(74, 74, 75);
 
 }
 .roupas {
@@ -170,13 +165,8 @@ button {
 }
 
 .roupas-card-container {
-    padding: 0rem 10rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: space-between;
-   align-items: center;
+    
+   width: 100%;
     
 
 
@@ -268,5 +258,9 @@ footer {
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
+
+}
+.detalhes img{
+    width: 400px;
 
 }
