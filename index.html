@@ -19,9 +19,9 @@
             <span class="logo">Solidário cabide de Todos</span>
             <ul class="menu">
 
-                <li><a>Home</a></li>
-                <li><a>Contato</a></li>
-                <li><a>Novidade</a></li>
+                <li><a href="#C1">Home</a></li>
+                <li><a href="#C2">Roupas</a></li>
+                <li><a href="#C3">Contatos</a></li>
             
             </ul>
             <a></a>
@@ -32,11 +32,11 @@
         <div class="principal">
             <section class="hero">
                 <header class="hero-conteudo">
-                    <span class="destaque">novidade</span>
+                    
                     <h1 class="texto">Faça sua doação</h1>
                     <hr/>
                     <h2 class="hero-sub">Encontre roupas para adoações</h2>
-                    <button>Doar</button>
+                    <button><a href="#C3">Doar</a></button>
 
                 </header>
                 <div class="hero-imagens-conteiner">
@@ -48,6 +48,7 @@
        
 
         <section class="roupas">
+            <h3><a name="C2">Roupas para a adoção</a></h3>
             
             <div class="blog-container">
                 <div class="blog-box">
@@ -124,12 +125,31 @@
         
                     </div>
                     
-                    
-    
+                </div>
             </div>
-           
             
 
+        </section>
+        <section class="formulario">
+            <div class="contatos">
+                <h2><a name="C3"></a>CONTATOS</h2>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input type="text" name ="nome" placeholder="Digite seu nome" required>
+                <label>Email</label>
+                <input type="email" name ="email" placeholder="Digite seu email" required>
+                <label>Mansagem</label>
+                <textarea name="message"  cols="30" rows="10" placeholder="Digite suas informações" required></textarea>
+                <button type="submit">Enviar</button>
+
+
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/index2.htm">
+                <input type="hidden" name="accessKey" value="2aa39a0d-926a-4fd3-87c9-74fdba5a207f">
+
+            </form>
+                
+
+            </div>
         </section>
 
     </main>

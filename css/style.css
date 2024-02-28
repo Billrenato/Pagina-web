@@ -12,6 +12,7 @@
 body {
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    
 }
 
 .texto{
@@ -21,6 +22,7 @@ body {
 
 a {
     text-decoration: none;
+    color: rgb(189, 62, 83);
 
 }
 ul {
@@ -45,28 +47,28 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    color: rgb(114, 26, 45);
+    color: rgb(189, 62, 83);
 }
 main {
     display: flex;
     flex-direction: column;
 }
 .principal{
-    background:  url(/assets/064624847468350795204f7164b97be5.jpg);
+    background-image: url(/assets/DOA34852328_xl-1024x682.jpg);
+    
    
-    object-fit: cover;
-    object-position: center;
+    
 
     
 
 }
 .hero {
     
-    max-width: 1120px;
+   
     height: 60vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction:column;
+    justify-content: center;
     align-items: center;
     gap: 6rem;
     padding: 0rem 2rem;
@@ -86,11 +88,16 @@ main {
 
 }
 .hero-conteudo button{
-    height: 100px;
-    font-size: 50px;
+    gap: 1rem;
+    width: 300px;
+    height: 200x;
+    font-size: 35px;
     border-radius:  13px;
-    background-color:rgb(143, 143, 143);
+    background-color:rgb(255, 250, 250);
     border-color:  rgba(0, 0, 0, 0.13);
+    text-decoration: none;
+    color: #e3e8ec;
+    
     
 }
 
@@ -110,15 +117,15 @@ main {
 
 }
 .amarelo {
-    color: rgb(114, 26, 45);
+    color: rgb(189, 62, 83);
 
 }
 hr {
-    border-color: rgb(114, 26, 45);
+    border-color: rgb(189, 62, 83);
 
 }
 .hero-sub {
-    color: rgb(114, 26, 45);
+    color: rgb(189, 62, 83);
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
@@ -236,7 +243,7 @@ h1 {
 
 }
 .descri-roupa {
-    color: rgb(14, 13, 12);
+    color: rgb(189, 62, 83);
     font-size: 1rem;
     font-weight: 400;
 
@@ -263,12 +270,12 @@ footer {
     flex-direction: column;
     align-items:  center;
     gap: 0.5rem;
-    background: rgb(68, 68, 68);
+    background: rgb(255, 253, 253);
 
 
 }
 .copy-footer {
-    color: bisque;
+    color: rgb(189, 62, 83);
     font-size: 1rem;
     font-weight: 500;
 
@@ -312,7 +319,7 @@ footer {
     flex-direction: column;
 }
 .blog-text span{
-    color: #030303 ;
+    color: rgb(189, 62, 83);
     font-size: 0.9rem;
 
 }
@@ -328,7 +335,7 @@ footer {
     
 }
 .blog-text p{
-    color: #070606  ;
+    color: rgb(189, 62, 83) ;
     font-size: 0.9rem;
     display: -webkit-box;
     -webkit-line-clamp: 3-web;
@@ -343,7 +350,7 @@ footer {
     color: #161b1b;
 }
 .blog-text a:hover{
-    color:#2f3026  ;
+    color:#75756e  ;
     transition: all ease 0.3s;
 }
 .blog-container{
@@ -363,3 +370,163 @@ footer {
     
     
 }
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #e3e8ec;
+
+}
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:  10px 45px;
+    width: 500px;
+    min-height:70vh;
+    position: relative;
+    
+    
+    
+    
+
+   
+}
+.formulario h2{
+    font-size: 40px;
+    margin: 2rem;
+    color: rgb(189, 62, 83);
+    
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form label{
+    font-size: 17px;
+    margin-bottom: 4px;
+
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom:  20px;
+    font-size: 15px;
+    transition: all 0.5s;
+    
+
+}
+form input:focus{
+    border-radius: 16px;
+
+
+}
+form textarea{
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+
+
+}
+form textarea:focus{
+    border-radius: 16px;
+  
+
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid;
+    color: white;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+ form button:focus{
+    border-radius: 16px;
+    color: white;
+    background-color: #2f3026;
+ }  
+ .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #e3e8ec;
+    flex-direction: column;
+    font-family: "Marck Script";
+ } 
+ .text{
+    font-size: 40px;
+    color: rgb(189, 62, 83);
+    margin-bottom: 30px;
+ }
+ .paragrafo{
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+
+ }
+ .btn{
+    padding: 15px 55px;
+    background: #ffffff;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    transition: all 0.5s;
+ }
+ .btn:hover{
+    border-radius: 16px;
+   
+ }
+ @media screen and  (max-width:768px){
+    .contatos{
+      
+        
+    }
+    .texto{
+        font-size: 80px;
+    }
+    .hero-sub {
+        
+        font-size: 18px;  
+    }
+    .hero-conteudo button{
+        font-size: 25px;
+        height: 50px;
+    }
+    .logo {
+        
+        font-size: 20px;
+       
+    }
+    .menu {
+        font-size: 15px;
+    }
+    .text{
+        font-size: 25px;
+    }
+    .paragrafo{
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 15px;
+        
+    }
+
+ }
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+    font-size: 30px;
+}
+
